@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03692C991FDE685700BDE0F3 /* LookProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03692C981FDE685700BDE0F3 /* LookProfileViewController.m */; };
+		03692C9C1FDE752D00BDE0F3 /* SKMulitiBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03692C9B1FDE752D00BDE0F3 /* SKMulitiBarView.m */; };
+		03AE63201F8F44C900FF6C10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AE631F1F8F44C900FF6C10 /* main.m */; };
+		03AE63231F8F44C900FF6C10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AE63221F8F44C900FF6C10 /* AppDelegate.m */; };
+		03AE63261F8F44C900FF6C10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AE63251F8F44C900FF6C10 /* ViewController.m */; };
+		03AE63291F8F44C900FF6C10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AE63271F8F44C900FF6C10 /* Main.storyboard */; };
+		03AE632B1F8F44C900FF6C10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AE632A1F8F44C900FF6C10 /* Assets.xcassets */; };
+		03AE632E1F8F44C900FF6C10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AE632C1F8F44C900FF6C10 /* LaunchScreen.storyboard */; };
+		03AE63391F8F44CA00FF6C10 /* ChaozhouTaxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AE63381F8F44CA00FF6C10 /* ChaozhouTaxTests.m */; };
+		03AE63441F8F44CA00FF6C10 /* ChaozhouTaxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AE63431F8F44CA00FF6C10 /* ChaozhouTaxUITests.m */; };
+		118D0ED31FDECE8000BEE377 /* SKSingleBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 118D0ED21FDECE8000BEE377 /* SKSingleBarView.m */; };
+		3710917B8D9A6D516436195B /* libPods-ChaozhouTax.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB92790D18B97E921DBE28C /* libPods-ChaozhouTax.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03AE63351F8F44CA00FF6C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03AE63131F8F44C900FF6C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03AE631A1F8F44C900FF6C10;
+			remoteInfo = ChaozhouTax;
+		};
+		03AE63401F8F44CA00FF6C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03AE63131F8F44C900FF6C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03AE631A1F8F44C900FF6C10;
+			remoteInfo = ChaozhouTax;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03692C971FDE685700BDE0F3 /* LookProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookProfileViewController.h; sourceTree = "<group>"; };
+		03692C981FDE685700BDE0F3 /* LookProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookProfileViewController.m; sourceTree = "<group>"; };
+		03692C9A1FDE752D00BDE0F3 /* SKMulitiBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKMulitiBarView.h; sourceTree = "<group>"; };
+		03692C9B1FDE752D00BDE0F3 /* SKMulitiBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKMulitiBarView.m; sourceTree = "<group>"; };
+		03AE631B1F8F44C900FF6C10 /* ChaozhouTax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChaozhouTax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AE631F1F8F44C900FF6C10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03AE63211F8F44C900FF6C10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03AE63221F8F44C900FF6C10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03AE63241F8F44C900FF6C10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03AE63251F8F44C900FF6C10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03AE63281F8F44C900FF6C10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03AE632A1F8F44C900FF6C10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03AE632D1F8F44C900FF6C10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03AE632F1F8F44C900FF6C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AE63341F8F44CA00FF6C10 /* ChaozhouTaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaozhouTaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AE63381F8F44CA00FF6C10 /* ChaozhouTaxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChaozhouTaxTests.m; sourceTree = "<group>"; };
+		03AE633A1F8F44CA00FF6C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AE633F1F8F44CA00FF6C10 /* ChaozhouTaxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaozhouTaxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AE63431F8F44CA00FF6C10 /* ChaozhouTaxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChaozhouTaxUITests.m; sourceTree = "<group>"; };
+		03AE63451F8F44CA00FF6C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AE63511F8F463500FF6C10 /* Tax.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tax.pch; sourceTree = "<group>"; };
+		118D0ED11FDECE8000BEE377 /* SKSingleBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSingleBarView.h; sourceTree = "<group>"; };
+		118D0ED21FDECE8000BEE377 /* SKSingleBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSingleBarView.m; sourceTree = "<group>"; };
+		1BB92790D18B97E921DBE28C /* libPods-ChaozhouTax.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChaozhouTax.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ACEA772232A2E46AAAA5328 /* Pods-ChaozhouTax.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaozhouTax.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChaozhouTax/Pods-ChaozhouTax.debug.xcconfig"; sourceTree = "<group>"; };
+		9B2EE46302AF7EDC49E5848A /* Pods-ChaozhouTax.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaozhouTax.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChaozhouTax/Pods-ChaozhouTax.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03AE63181F8F44C900FF6C10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3710917B8D9A6D516436195B /* libPods-ChaozhouTax.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AE63311F8F44CA00FF6C10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AE633C1F8F44CA00FF6C10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03AE63121F8F44C900FF6C10 = {
+			isa = PBXGroup;
+			children = (
+				03AE631D1F8F44C900FF6C10 /* ChaozhouTax */,
+				03AE63371F8F44CA00FF6C10 /* ChaozhouTaxTests */,
+				03AE63421F8F44CA00FF6C10 /* ChaozhouTaxUITests */,
+				03AE631C1F8F44C900FF6C10 /* Products */,
+				DE33C100534097DB9896BB7A /* Pods */,
+				8C8D05F72C395081D7770EEA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03AE631C1F8F44C900FF6C10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03AE631B1F8F44C900FF6C10 /* ChaozhouTax.app */,
+				03AE63341F8F44CA00FF6C10 /* ChaozhouTaxTests.xctest */,
+				03AE633F1F8F44CA00FF6C10 /* ChaozhouTaxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03AE631D1F8F44C900FF6C10 /* ChaozhouTax */ = {
+			isa = PBXGroup;
+			children = (
+				03AE63241F8F44C900FF6C10 /* ViewController.h */,
+				03AE63251F8F44C900FF6C10 /* ViewController.m */,
+				03692C971FDE685700BDE0F3 /* LookProfileViewController.h */,
+				03692C981FDE685700BDE0F3 /* LookProfileViewController.m */,
+				03692C9A1FDE752D00BDE0F3 /* SKMulitiBarView.h */,
+				03692C9B1FDE752D00BDE0F3 /* SKMulitiBarView.m */,
+				118D0ED11FDECE8000BEE377 /* SKSingleBarView.h */,
+				118D0ED21FDECE8000BEE377 /* SKSingleBarView.m */,
+				03AE63271F8F44C900FF6C10 /* Main.storyboard */,
+				03AE632A1F8F44C900FF6C10 /* Assets.xcassets */,
+				03AE632C1F8F44C900FF6C10 /* LaunchScreen.storyboard */,
+				03AE632F1F8F44C900FF6C10 /* Info.plist */,
+				03AE631E1F8F44C900FF6C10 /* Supporting Files */,
+			);
+			path = ChaozhouTax;
+			sourceTree = "<group>";
+		};
+		03AE631E1F8F44C900FF6C10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03AE631F1F8F44C900FF6C10 /* main.m */,
+				03AE63211F8F44C900FF6C10 /* AppDelegate.h */,
+				03AE63221F8F44C900FF6C10 /* AppDelegate.m */,
+				03AE63511F8F463500FF6C10 /* Tax.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03AE63371F8F44CA00FF6C10 /* ChaozhouTaxTests */ = {
+			isa = PBXGroup;
+			children = (
+				03AE63381F8F44CA00FF6C10 /* ChaozhouTaxTests.m */,
+				03AE633A1F8F44CA00FF6C10 /* Info.plist */,
+			);
+			path = ChaozhouTaxTests;
+			sourceTree = "<group>";
+		};
+		03AE63421F8F44CA00FF6C10 /* ChaozhouTaxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03AE63431F8F44CA00FF6C10 /* ChaozhouTaxUITests.m */,
+				03AE63451F8F44CA00FF6C10 /* Info.plist */,
+			);
+			path = ChaozhouTaxUITests;
+			sourceTree = "<group>";
+		};
+		8C8D05F72C395081D7770EEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BB92790D18B97E921DBE28C /* libPods-ChaozhouTax.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE33C100534097DB9896BB7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2ACEA772232A2E46AAAA5328 /* Pods-ChaozhouTax.debug.xcconfig */,
+				9B2EE46302AF7EDC49E5848A /* Pods-ChaozhouTax.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03AE631A1F8F44C900FF6C10 /* ChaozhouTax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AE63481F8F44CA00FF6C10 /* Build configuration list for PBXNativeTarget "ChaozhouTax" */;
+			buildPhases = (
+				6356061E6DDC73272C22876F /* [CP] Check Pods Manifest.lock */,
+				03AE63171F8F44C900FF6C10 /* Sources */,
+				03AE63181F8F44C900FF6C10 /* Frameworks */,
+				03AE63191F8F44C900FF6C10 /* Resources */,
+				0C20DAF7D29B3E795282E2F0 /* [CP] Embed Pods Frameworks */,
+				8899B9F816AC4049005B1B80 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChaozhouTax;
+			productName = ChaozhouTax;
+			productReference = 03AE631B1F8F44C900FF6C10 /* ChaozhouTax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03AE63331F8F44CA00FF6C10 /* ChaozhouTaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AE634B1F8F44CA00FF6C10 /* Build configuration list for PBXNativeTarget "ChaozhouTaxTests" */;
+			buildPhases = (
+				03AE63301F8F44CA00FF6C10 /* Sources */,
+				03AE63311F8F44CA00FF6C10 /* Frameworks */,
+				03AE63321F8F44CA00FF6C10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03AE63361F8F44CA00FF6C10 /* PBXTargetDependency */,
+			);
+			name = ChaozhouTaxTests;
+			productName = ChaozhouTaxTests;
+			productReference = 03AE63341F8F44CA00FF6C10 /* ChaozhouTaxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03AE633E1F8F44CA00FF6C10 /* ChaozhouTaxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AE634E1F8F44CA00FF6C10 /* Build configuration list for PBXNativeTarget "ChaozhouTaxUITests" */;
+			buildPhases = (
+				03AE633B1F8F44CA00FF6C10 /* Sources */,
+				03AE633C1F8F44CA00FF6C10 /* Frameworks */,
+				03AE633D1F8F44CA00FF6C10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03AE63411F8F44CA00FF6C10 /* PBXTargetDependency */,
+			);
+			name = ChaozhouTaxUITests;
+			productName = ChaozhouTaxUITests;
+			productReference = 03AE633F1F8F44CA00FF6C10 /* ChaozhouTaxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03AE63131F8F44C900FF6C10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = AlexanderYeah;
+				TargetAttributes = {
+					03AE631A1F8F44C900FF6C10 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7DC4XMJV5E;
+						ProvisioningStyle = Automatic;
+					};
+					03AE63331F8F44CA00FF6C10 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7DC4XMJV5E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03AE631A1F8F44C900FF6C10;
+					};
+					03AE633E1F8F44CA00FF6C10 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7DC4XMJV5E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03AE631A1F8F44C900FF6C10;
+					};
+				};
+			};
+			buildConfigurationList = 03AE63161F8F44C900FF6C10 /* Build configuration list for PBXProject "ChaozhouTax" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03AE63121F8F44C900FF6C10;
+			productRefGroup = 03AE631C1F8F44C900FF6C10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03AE631A1F8F44C900FF6C10 /* ChaozhouTax */,
+				03AE63331F8F44CA00FF6C10 /* ChaozhouTaxTests */,
+				03AE633E1F8F44CA00FF6C10 /* ChaozhouTaxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03AE63191F8F44C900FF6C10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AE632E1F8F44C900FF6C10 /* LaunchScreen.storyboard in Resources */,
+				03AE632B1F8F44C900FF6C10 /* Assets.xcassets in Resources */,
+				03AE63291F8F44C900FF6C10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AE63321F8F44CA00FF6C10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AE633D1F8F44CA00FF6C10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C20DAF7D29B3E795282E2F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChaozhouTax/Pods-ChaozhouTax-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6356061E6DDC73272C22876F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8899B9F816AC4049005B1B80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChaozhouTax/Pods-ChaozhouTax-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03AE63171F8F44C900FF6C10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AE63261F8F44C900FF6C10 /* ViewController.m in Sources */,
+				03AE63231F8F44C900FF6C10 /* AppDelegate.m in Sources */,
+				118D0ED31FDECE8000BEE377 /* SKSingleBarView.m in Sources */,
+				03AE63201F8F44C900FF6C10 /* main.m in Sources */,
+				03692C9C1FDE752D00BDE0F3 /* SKMulitiBarView.m in Sources */,
+				03692C991FDE685700BDE0F3 /* LookProfileViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AE63301F8F44CA00FF6C10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AE63391F8F44CA00FF6C10 /* ChaozhouTaxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AE633B1F8F44CA00FF6C10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AE63441F8F44CA00FF6C10 /* ChaozhouTaxUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03AE63361F8F44CA00FF6C10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03AE631A1F8F44C900FF6C10 /* ChaozhouTax */;
+			targetProxy = 03AE63351F8F44CA00FF6C10 /* PBXContainerItemProxy */;
+		};
+		03AE63411F8F44CA00FF6C10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03AE631A1F8F44C900FF6C10 /* ChaozhouTax */;
+			targetProxy = 03AE63401F8F44CA00FF6C10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03AE63271F8F44C900FF6C10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03AE63281F8F44C900FF6C10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03AE632C1F8F44C900FF6C10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03AE632D1F8F44C900FF6C10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03AE63461F8F44CA00FF6C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03AE63471F8F44CA00FF6C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03AE63491F8F44CA00FF6C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ACEA772232A2E46AAAA5328 /* Pods-ChaozhouTax.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ChaozhouTax/Tax.pch";
+				INFOPLIST_FILE = ChaozhouTax/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderYeah.ChaozhouTax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03AE634A1F8F44CA00FF6C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B2EE46302AF7EDC49E5848A /* Pods-ChaozhouTax.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ChaozhouTax/Tax.pch";
+				INFOPLIST_FILE = ChaozhouTax/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderYeah.ChaozhouTax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		03AE634C1F8F44CA00FF6C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = ChaozhouTaxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderYeah.ChaozhouTaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChaozhouTax.app/ChaozhouTax";
+			};
+			name = Debug;
+		};
+		03AE634D1F8F44CA00FF6C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = ChaozhouTaxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderYeah.ChaozhouTaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChaozhouTax.app/ChaozhouTax";
+			};
+			name = Release;
+		};
+		03AE634F1F8F44CA00FF6C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = ChaozhouTaxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderYeah.ChaozhouTaxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChaozhouTax;
+			};
+			name = Debug;
+		};
+		03AE63501F8F44CA00FF6C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = ChaozhouTaxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderYeah.ChaozhouTaxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChaozhouTax;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03AE63161F8F44C900FF6C10 /* Build configuration list for PBXProject "ChaozhouTax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AE63461F8F44CA00FF6C10 /* Debug */,
+				03AE63471F8F44CA00FF6C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03AE63481F8F44CA00FF6C10 /* Build configuration list for PBXNativeTarget "ChaozhouTax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AE63491F8F44CA00FF6C10 /* Debug */,
+				03AE634A1F8F44CA00FF6C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03AE634B1F8F44CA00FF6C10 /* Build configuration list for PBXNativeTarget "ChaozhouTaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AE634C1F8F44CA00FF6C10 /* Debug */,
+				03AE634D1F8F44CA00FF6C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03AE634E1F8F44CA00FF6C10 /* Build configuration list for PBXNativeTarget "ChaozhouTaxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AE634F1F8F44CA00FF6C10 /* Debug */,
+				03AE63501F8F44CA00FF6C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03AE63131F8F44C900FF6C10 /* Project object */;
+}
